@@ -1,0 +1,10 @@
+  /*Font */
+*{
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+}
