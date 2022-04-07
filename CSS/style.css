@@ -16,6 +16,8 @@ font-family: 'Roboto', sans-serif;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 li{
     float: left;
@@ -35,15 +37,25 @@ li a:hover{
 .active{
     background-color: red;
 }
-.title{
-      display: inline-block;
-      padding: 15px 20px;
-      color: white;
-      background-color: #333;
-      border-radius: 10px;
+.grid-container h1{
+    display: flex;
+    justify-content: center;
+    padding: 15px 20px;
+    color: white;
+    background-color: #333;
+    border-radius: 10px;
 }
-
-
+.grid-container img{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-right: 25px;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px; 
+    
+}
 
 
 
