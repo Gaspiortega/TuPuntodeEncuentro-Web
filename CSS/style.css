@@ -4,13 +4,16 @@ font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 
-
+/*Barra de Navegacion*/
 li{
     float: left;
     border-right:1px solid #bbb;
 }
-
 li a{
     display: block;
     color: white;
@@ -20,20 +23,6 @@ li a{
 }
 li a:hover{
     background-color: #111;
-}
-
-
-
-.logo{
-    display: flex;
-    justify-content: center;
-    width: 170px;
-    height: 170px;
-    border-radius: 150px;
-}
-.logo:hover{
-    transform: scale(1.2);
-    transition-duration: 2s;
 }
 .barranav{
     width: 100%;
@@ -47,6 +36,23 @@ li a:hover{
 .active{
     background-color: red;
 }
+/*Fin barra de navegacion */
+
+/*Logo*/
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 170px;
+    border-radius: 150px;
+}
+.logo:hover{
+    transform: scale(1.2);
+    transition-duration: 2s;
+}
+/*Fin Logo*/
+
+/*Titulo Productos Destacados*/
 .grid-container h1{
     display: grid;
     justify-content: center;
@@ -55,19 +61,28 @@ li a:hover{
     background-color: #333;
     border-radius: 10px;
 }
-.imagenes{
-    width:100%;
+/*Fin Titulo Productos Destacados*/
+
+/*Inicio Carrousel*/
+
+/*Fin Carrousel*/
+
+/*Ofertas Destacadas*/
+.ofertas{
     display: flex;
     justify-content: center;
+    padding: 10px 15px;
+    color: white;
+    background-color: #333;
+    margin-top: 60px;
+    border-radius: 20px;
 }
-
-.imagenes img{
-    width: 22%;
-    margin: 0 5px;
-    border-radius: 10px;
+.ofertasdestacadas{
+    display: flex; 
+    width: 30px;
+    object-fit: cover;
 }
-
-
+/*Fin Ofertas Destacadas*/
 
 body{
     background-color: whitesmoke;
