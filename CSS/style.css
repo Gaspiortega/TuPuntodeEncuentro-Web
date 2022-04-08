@@ -10,31 +10,11 @@ font-family: 'Roboto', sans-serif;
 }
 
 /*Barra de Navegacion*/
-li{
-    float: left;
-    border-right:1px solid #bbb;
-}
-li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-li a:hover{
-    background-color: #111;
-}
-.barranav{
-    width: 100%;
-    display: inline-block;
-    list-style-type: none;
-    background-color: #333;
+.navbar{
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
-    border-radius: 10px;
-}
-
-.active{
-    background-color: red;
+    background-color: #333;
 }
 /*Fin barra de navegacion */
 
@@ -45,6 +25,7 @@ li a:hover{
     width: 170px;
     height: 170px;
     border-radius: 150px;
+    margin-top: 20px;
 }
 .logo:hover{
     transform: scale(1.2);
@@ -53,10 +34,11 @@ li a:hover{
 /*Fin Logo*/
 
 /*Titulo Productos Destacados*/
-.grid-container h1{
-    display: grid;
-    justify-content: center;
-    padding: 15px 20px;
+.title{
+    display: inline-flex;
+    justify-content: center; 
+    padding: 15px;
+    margin: 15px;
     color: white;
     background-color: #333;
     border-radius: 10px;
@@ -64,7 +46,15 @@ li a:hover{
 /*Fin Titulo Productos Destacados*/
 
 /*Inicio Carrousel*/
-
+.sectionCarousel{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.sectionCarousel img{
+    border-radius: 15px;
+}
 /*Fin Carrousel*/
 
 /*Ofertas Destacadas*/
@@ -77,13 +67,27 @@ li a:hover{
     margin-top: 60px;
     border-radius: 20px;
 }
-.ofertasdestacadas{
-    display: flex; 
-    width: 30px;
-    object-fit: cover;
+.imgofertasdestacadas{
+    display: inline-flex;
+    align-items: center;
+}
+
+.imgpicadas{
+    width: 400px;
+    height: 400px;
+}
+.imglomo{
+    width:400px;
+    height:400px;
 }
 /*Fin Ofertas Destacadas*/
+/*MAPS*/
+.maps{
+display: flex;
+margin-top: 100px;
 
+}
+/*FIN maps*/
 body{
     background-color: whitesmoke;
 }

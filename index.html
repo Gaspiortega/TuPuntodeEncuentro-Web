@@ -20,120 +20,109 @@
         href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300&family=Roboto&display=swap"
         rel="stylesheet">
     <!--Fin Font-->
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/97f251cdc2.js" crossorigin="anonymous"></script>
+    <!--Fin Iconos-->
 </head>
 <header class="header">
     <div class="containerlogo">
         <!--Logo-->
         <a href="index.html"><img src="IMAGENES/logotipo-web.jpg" class="logo" alt="logo"></a>
         <!--Fin logo-->
-        <nav class="navigation">
-            <ul class="barranav">
-                <li><a href="index.html" class="active">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="ofertas.html">Ofertas</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="carrito.html" class="carrito">Carrito</a></li>
-            </ul>
-        </nav>
     </div>
+    <!--Navbar-->
+    <section class="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="index.html"></a>
+                        <a class="nav-link" href="productos.html">Productos</a>
+                        <a class="nav-link" href="ofertas.html">Ofertas</a>
+                        <a class="nav-link" href="carrito.html"><i class="fa-solid fa-cart-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!--Fin Navbar-->
 </header>
 <!--Inicio Body-->
 
 <body>
-    <div class="grid-container">
+    <div>
         <div>
             <!--Title-->
-            <h1>
+            <h1 class="title">
                 Productos Destacados
             </h1>
             <!--Fin Title-->
             <!--Carrousel-->
-            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+            <section class="sectionCarousel">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide w-50" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="IMAGENES/QuesoD70.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="IMAGENES/Quesoilolaycremoso.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="IMAGENES/Quesopuntadeagua.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="IMAGENES/QuesoD70.jpg" class="d-block w-50" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p></p>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="IMAGENES/Quesoilolaycremoso.jpg" class="d-block w-50" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p></p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="IMAGENES/Quesopuntadeagua.jpg" class="d-block w-50" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+            </section>
             <!--Fin Carrousel-->
             <!--Ofertas Destacadas-->
             <h2 class="ofertas">
                 Ofertas Destacadas
             </h2>
-            <section class="ofertasdestacadas">
+            <section>
                 <div>
-                    <div>
-                        <img src="IMAGENES/Picadas.jpg" alt="Picadas">
-                    </div>
-                    <div>
-                        <img src="IMAGENES/Lomo.jpg" alt="Lomo">
+                    <div class="imgofertasdestacadas">
+                        <img class="imgpicadas" src="IMAGENES/Picadas.jpg" alt="Picadas">
+                        <img class="imglomo" src="IMAGENES/Lomo.jpg" alt="Lomo">
                     </div>
                 </div>
             </section>
             <!--Fin ofertas destacadas-->
-            <p> dolor sit amet consectetur adipisicing elit. Mollitia aut accusantium esse totam. Rerum, vel nobis?
-                Dolorum, fugit exercitationem rerum unde esse obcaecati, maxime quis ab ipsam ex eum commodi.
-                Maiores nulla magni iure officiis! Amet corrupti veritatis minus inventore delectus, facilis veniam
-                recusandae, impedit qui neque ad optio ratione cupiditate porro ullam culpa alias aspernatur odio fugiat
-                perferendis blanditiis?
-                Minima a quae temporibus doloribus unde repellat ratione fuga at quam praesentium porro deserunt, hic
-                maiores qui illo iste possimus illum. Illum, iure laudantium temporibus nihil rerum eos voluptas cumque.
-                Architecto, laboriosam. Numquam, suscipit placeat nam ab vel assumenda sint nesciunt ullam harum ea.
-                Molestiae accusamus veritatis voluptatem nemo recusandae, ducimus minus ex autem excepturi dolores
-                cupiditate pariatur libero odit!
-                Ex cupiditate vitae, esse, aut fugit amet quasi earum facere quis, itaque hic magni libero excepturi
-                molestiae laudantium explicabo soluta tempore quos quaerat? Repudiandae, repellat fugiat facere dolorem
-                praesentium magni!
-                Quasi et maxime minus similique minima libero blanditiis ipsam aliquid, molestiae praesentium recusandae
-                dolore, aperiam delectus natus impedit saepe labore laborum iste! Aliquam repellendus amet impedit, vero
-                maiores suscipit repellat.
-                Ex ad incidunt ea eos repellendus pariatur. At expedita quis corrupti, maiores earum dicta odit aperiam
-                culpa laborum maxime libero temporibus quod error iure quisquam fugit similique incidunt voluptatibus a.
-                Omnis aliquam saepe impedit vero reiciendis placeat illum nam maiores, tenetur nesciunt. Perferendis
-                eius porro cupiditate. Illum quidem quo cumque, expedita recusandae tempora laboriosam ad architecto
-                saepe, placeat nostrum alias?
-                Laborum omnis aliquam, qui reiciendis est iste provident aperiam asperiores facilis et, nostrum
-                perspiciatis id temporibus deserunt fuga. Fuga eos incidunt debitis repellat consequatur consectetur
-                veniam quaerat quo ea dolore.
-                Qui quasi sapiente ratione cupiditate accusantium, ipsum molestias doloribus labore porro tenetur
-                deserunt laboriosam amet a officia animi ullam iusto dolorem fuga ex. Soluta vel veniam culpa non
-                similique iusto!</p>
         </div>
     </div>
 
@@ -149,14 +138,25 @@
 
     <!--Boostrap-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+        </script>
 </body>
-<footer class="footer">
 
+
+
+<footer class="footer">
+    <h1></h1>
+    <section class="maps">
+        <!--Maps-->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.876748189965!2d-68.82218118432746!3d-32.927854480926776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0bfb0a2a2f0d%3A0xdf93fccd3865b0dd!2sQuesos%20%26%20Fiambres%20Tu%20Mayorista!5e0!3m2!1ses-419!2sar!4v1649382968205!5m2!1ses-419!2sar"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!--Fin Maps-->
+    </section>
 </footer>
 
 </html>
