@@ -81,13 +81,55 @@ font-family: 'Roboto', sans-serif;
     height:400px;
 }
 /*Fin Ofertas Destacadas*/
+.footer{
+    background-color: #333;
+}
+.ubication{
+    display: flex;
+    color: white;
+}
 /*MAPS*/
 .maps{
-display: flex;
-margin-top: 100px;
-
-}
-/*FIN maps*/
+    display: flex;
+    margin-top: 100px;
+    }
+    /*FIN maps*/
 body{
     background-color: whitesmoke;
+}
+/*GRID OFERTAS*/
+.grid-container{
+    display: grid;
+    background-color: #333;
+    grid-template-columns: auto auto auto;
+}
+.grid-container div{
+    background-color: beige;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/*h1 OFERTAS*/
+.title-ofertas{
+    display: inline-flex;
+    justify-content: center; 
+    padding: 15px;
+    margin: 15px;
+    color: white;
+    background-color: #333;
+    border-radius: 10px;
+}
+.title-ofertas{
+    
+}
+
+
+/*Pag Productos*/
+#productos-title{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+
 }
