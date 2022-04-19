@@ -1,8 +1,8 @@
 /*Font */
 * {
-    font-family: "Playfair Display", serif;
-    font-family: "Poppins", sans-serif;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 * {
@@ -19,6 +19,7 @@
 }
 
 /*Fin barra de navegacion */
+
 /*Logo*/
 .logo {
     display: flex;
@@ -35,6 +36,7 @@
 }
 
 /*Fin Logo*/
+
 /*Titulo Productos Destacados*/
 h1 {
     display: flex;
@@ -48,6 +50,7 @@ h1 {
 }
 
 /*Fin Titulo Productos Destacados*/
+
 /*Inicio Carrousel*/
 .sectionCarousel {
     display: flex;
@@ -63,7 +66,6 @@ h1 {
 /*Fin Carrousel*/
 
 /*Ofertas Destacadas*/
-
 .ofertas {
     display: flex;
     justify-content: center;
@@ -88,40 +90,25 @@ h1 {
     width: 400px;
     height: 400px;
 }
+
 /*Fin Ofertas Destacadas*/
-/*Inicio footer*/
 .footer {
-    display: flex;
-    align-items: center;
     background-color: #333;
 }
-.footer div a img{
-    display: flex;
-    margin: 10px;
-    max-width: auto;
-    max-height: 40px;
-} 
 
-.footer p {
-    padding-left: 120px;
-    color: white;
-}
 .ubication {
     display: flex;
     color: white;
 }
 
+/*MAPS*/
 .maps {
     display: flex;
-    justify-content: center;
-    padding: 20px;
-    margin: 20px;
+    margin-top: 100px;
 }
-/*Fin footer*/
 
-
-
-body{
+/*FIN maps*/
+body {
     background-color: whitesmoke;
 }
 
@@ -156,6 +143,5 @@ body{
     padding: 15px;
     background-color: #333;
     color: white;
-}
 
-/*# sourceMappingURL=style.css.map */
+}
