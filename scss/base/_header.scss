@@ -1,0 +1,9 @@
+ul{
+    font-size: 12px;
+    li{
+        background-color: $color-primario;
+        a{
+            background-color: $color-secundario;
+        }
+    }
+}
