@@ -1,0 +1,43 @@
+/*Inicio footer*/
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    margin-top: 30px;
+
+    div {
+        a {
+            img {
+                display: flex;
+                margin: 10px;
+                max-width: auto;
+                max-height: 40px;
+            }
+        }
+    }
+
+    p {
+        padding-left: 120px;
+        color: white;
+    }
+}
+.ubication {
+    display: flex;
+    color: white;
+}
+
+.icon-footer {
+    &:hover{
+    transform: scale(1.2);
+    transition-duration: 2s;
+    }
+}
+
+.maps {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+/*Fin footer*/

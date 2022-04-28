@@ -1,0 +1,22 @@
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 15px 150px;
+    background-color: #333;
+    color: white;
+}
+
+
+
+/*Inicio Carrousel*/
+.sectionCarousel {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    img{
+        border-radius: 15px;
+}  
+}   
+/*Fin Carrousel*/

@@ -1,0 +1,25 @@
+/*Logo*/
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 170px;
+    border-radius: 150px;
+    margin-top: 20px;
+}
+
+.logo {
+    &:hover{ 
+    transform: scale(1.2);
+    transition-duration: 2s;
+}
+}
+/*Fin Logo*/
+/*Barra de Navegacion*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #333;
+}
+/*Fin barra de navegacion */
